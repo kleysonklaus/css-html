@@ -112,6 +112,7 @@ nav li a:hover{
 
 /*HOME_PERSONAS*/
 .opinion{
+    margin-top: 50px;
     text-align: center;
 }
 .home_opinions{
@@ -119,11 +120,14 @@ nav li a:hover{
 /*    max-height: 50px;*/
     padding: 10%;
 /*    box-shadow: var(--box)*/
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
 }
 .home_opinion{
     text-align: center;
     padding: 10px;
-    margin-top: -150px;
+    margin-top: -120px;
 }
 .home_opinion .content{
     background-color: var(--white-color);
