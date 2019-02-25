@@ -1,0 +1,151 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700');
+
+/*variables*/
+:root{
+    --darkGreen-color: darkgreen;
+    --forestGreen-color: forestgreen;
+    --white-color: white;
+    --black-color: black;
+/*    tipografia*/
+    --normal: 12px;
+/*    espacio*/
+    --space: 10px;
+/*    box shadows*/
+    --box: 0 0 10px #c9cace;
+}
+/*variables*/
+
+html,body{
+    padding: 0px;
+    margin: 0px;
+    font-size: var(--normal);
+    font-family: 'Open Sans', sans-serif;
+}
+nav{
+    display: flex;
+    background-color: #3b5998;
+    padding: var(--space);
+    color: white;
+    justify-content: space-between;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav li{
+    padding-left: 20px;
+    list-style: none;
+}
+nav li a{
+    color: var(--black-color);
+    text-decoration: none;
+}
+nav li a:hover{
+    color: var(--white-color);
+}
+
+/*main sextion*/
+.main_section{
+    padding: 15%;
+    text-align: center;
+}
+
+.products{
+    display: flex;
+    background-image: url("../images/curve.png");
+    max-height: 50px;
+    background-size: cover;
+    background-position: center top;
+    padding: 20%;
+}
+.product{
+    padding: var(--space);
+    margin-top: -240px;
+}
+.product .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    box-shadow: var(--box);
+}
+.img_content{
+    text-align: center;
+}
+.main_button{
+    background-color: var(--darkGreen-color);
+    width: 100%;
+    padding: var(--space);
+    font-size: var(--normal);
+    color: var(--white-color);
+    border: 0px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.main_button:hover{
+    background-color: var(--forestGreen-color);
+}
+
+/*home_icono*/
+.home_icon{
+    display: flex;
+    max-height: 50px;
+    padding: 20%;
+    box-shadow: var(--box);
+}
+.home_icono{
+    padding: var(--space);
+    margin-top: -100px;
+}
+.img_content2{
+    text-align: center;
+}
+.home_icon img{
+  width:100px;
+  height:100px;
+    text-align: center;
+}
+.home_icon .content{
+    background-color: var(--white-color);
+    padding: 15px;
+    text-align: center
+/*    box-shadow: var(--box);*/
+}
+
+/*HOME_PERSONAS*/
+.opinion{
+    text-align: center;
+}
+.home_opinions{
+    display: flex;
+/*    max-height: 50px;*/
+    padding: 10%;
+/*    box-shadow: var(--box)*/
+}
+.home_opinion{
+    text-align: center;
+    padding: 10px;
+    margin-top: -150px;
+}
+.home_opinion .content{
+    background-color: var(--white-color);
+/*    background-color: black;*/
+    box-shadow: var(--box);
+}
+.home_opinions img{
+    width:250px;
+    height:150px;
+/*    border-radius: 30px;*/
+}
+.home_opinions .content{
+    background-color: var(--white-color);
+    padding: 1px;
+}
+.img_personas{
+    text-align: center;
+}
+
+
+
+
+
+
+
