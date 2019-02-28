@@ -1,0 +1,35 @@
+@media (max-width: 600px) {
+.products{
+    display: inherit;
+    height: auto;
+}
+    .product{
+        margin-top: auto;
+    }
+    .main_section{
+        padding: 4%;
+    }
+    .home_icon{
+        display: inherit;
+        margin-top: auto;
+    }
+/*
+    .home_icon{
+        display: inherit;
+        margin-top: auto;
+    }
+    .home_icon img{
+        width:100px;
+        height:100px;
+        text-align: center;
+    }
+*/
+    .home_opinions{
+        display: inherit;
+        margin-top: auto;
+    }
+    .home_opinions img{
+        width: 50%;
+        height: 25%;
+    }
+}

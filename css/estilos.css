@@ -117,12 +117,11 @@ nav li a:hover{
 }
 .home_opinions{
     display: flex;
-/*    max-height: 50px;*/
     padding: 10%;
-/*    box-shadow: var(--box)*/
-    max-height: 50px;
+/*
     background-size: cover;
     background-position: center top;
+*/
 }
 .home_opinion{
     text-align: center;
@@ -131,23 +130,46 @@ nav li a:hover{
 }
 .home_opinion .content{
     background-color: var(--white-color);
-/*    background-color: black;*/
     box-shadow: var(--box);
+    padding: 1px;
 }
 .home_opinions img{
-    width:250px;
-    height:150px;
+    width: 100%;
+    height: 50%;
+/*    //width:246px;*/
+/*    //height:130px;*/
 /*    border-radius: 30px;*/
-}
-.home_opinions .content{
-    background-color: var(--white-color);
-    padding: 1px;
 }
 .img_personas{
     text-align: center;
 }
 
-
+/**/
+.footer{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 30px;
+    text-align: center;
+    background-color: gray;
+    color: black;
+    justify-content: space-between;
+}
+.footer .footer_contacto{
+    
+}
+.footer_contacto:hover{
+    color: white;
+    cursor:help;
+}
+.footer .footer_terminos{
+    
+}
+.footer_terminos:hover{
+    color: white;
+    cursor:help;
+}
 
 
 
